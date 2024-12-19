@@ -1,0 +1,23 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.description {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  border-radius: 4px;
+}
+
+.form :global(.ant-form-item) {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+.form :global(.ant-rate) {
+  font-size: 24px;
+} 

@@ -1,0 +1,49 @@
+.container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scoreSection {
+  padding: 24px;
+  text-align: center;
+  border-right: 1px solid #f0f0f0;
+}
+
+.score {
+  margin-bottom: 24px;
+}
+
+.score :global(.ant-statistic-title) {
+  font-size: 16px;
+  color: #2d3748;
+}
+
+.score :global(.ant-statistic-content) {
+  color: #1890ff;
+  font-size: 36px;
+}
+
+.meta {
+  color: #718096;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.chartSection {
+  height: 300px;
+  padding: 24px;
+}
+
+@media (max-width: 768px) {
+  .scoreSection {
+    border-right: none;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 16px;
+  }
+
+  .chartSection {
+    height: 250px;
+    padding: 16px;
+  }
+} 

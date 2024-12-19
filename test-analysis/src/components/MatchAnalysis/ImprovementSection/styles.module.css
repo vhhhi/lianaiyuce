@@ -1,0 +1,83 @@
+.container {
+  padding: 24px 0;
+}
+
+.timelineDot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 14px;
+  color: #718096;
+  font-weight: normal;
+}
+
+.suggestionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestionItem {
+  padding: 12px 0;
+  border-bottom: 1px dashed #e2e8f0;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.suggestionItem:last-child {
+  border-bottom: none;
+}
+
+/* 响应式布局 */
+@media (max-width: 576px) {
+  .timelineDot {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+  
+  .cardTitle {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  
+  .description {
+    font-size: 12px;
+  }
+  
+  .suggestionItem {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+} 

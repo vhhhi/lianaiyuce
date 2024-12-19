@@ -1,0 +1,44 @@
+.valueSection {
+  text-align: center;
+  padding: 64px 24px;
+  background: linear-gradient(135deg, #fff6f6 0%, #ffe4e6 100%);
+  border-radius: 16px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actionButton {
+  height: 48px;
+  padding: 0 32px;
+  font-size: 18px;
+  border-radius: 24px;
+}
+
+/* 响应式布局 */
+@media (max-width: 576px) {
+  .valueSection {
+    padding: 48px 16px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+} 

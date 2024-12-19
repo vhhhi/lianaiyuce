@@ -1,0 +1,38 @@
+.featureCard {
+  height: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.iconWrapper {
+  font-size: 36px;
+  color: #ff4d4f;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .iconWrapper {
+    font-size: 28px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+} 

@@ -1,0 +1,16 @@
+.container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  padding: 24px 0;
+}
+
+/* 响应式布局 */
+@media (max-width: 576px) {
+  .section {
+    padding: 16px 0;
+  }
+}

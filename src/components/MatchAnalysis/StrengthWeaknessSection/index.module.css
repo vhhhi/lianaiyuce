@@ -1,0 +1,45 @@
+.cardTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.strengthIcon {
+  color: #52c41a;
+  font-size: 20px;
+}
+
+.weaknessIcon {
+  color: #faad14;
+  font-size: 20px;
+}
+
+.strengthCard,
+.weaknessCard {
+  height: 100%;
+}
+
+.analysisItem {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.analysisItem:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.analysisItem h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #1f1f1f;
+}
+
+.analysisItem p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+} 

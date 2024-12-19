@@ -1,0 +1,59 @@
+.entryCard {
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.entryCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.iconWrapper {
+  font-size: 36px;
+  color: #ed64a6;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .entryCard {
+    padding: 16px;
+  }
+
+  .iconWrapper {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+} 

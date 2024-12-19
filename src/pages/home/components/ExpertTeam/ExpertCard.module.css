@@ -1,0 +1,74 @@
+.expertCard {
+  height: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.expertCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(237, 100, 166, 0.08);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.avatarWrapper {
+  margin: -24px auto 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(237, 100, 166, 0.1);
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.specialties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.specialties :global(.ant-tag) {
+  background: #fff5f7;  /* 浅粉色背景 */
+  border-color: #ed64a6;  /* 主粉色边框 */
+  color: #ed64a6;  /* 主粉色文字 */
+}
+
+@media (max-width: 576px) {
+  .avatarWrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+} 

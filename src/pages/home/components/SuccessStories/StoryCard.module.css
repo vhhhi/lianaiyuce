@@ -1,0 +1,68 @@
+.storyCard {
+  margin: 0 auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cardContent {
+  display: flex;
+  gap: 24px;
+}
+
+.imageWrapper {
+  flex: 0 0 200px;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.content {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author {
+  font-size: 14px;
+  color: #999;
+}
+
+.rating {
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .cardContent {
+    flex-direction: column;
+  }
+  
+  .imageWrapper {
+    flex: none;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+} 

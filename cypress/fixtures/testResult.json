@@ -1,0 +1,61 @@
+{
+  "overview": {
+    "id": "test-123",
+    "overallScore": 85,
+    "dimensions": {
+      "personality": 88,
+      "values": 82,
+      "lifestyle": 85,
+      "interests": 90,
+      "future": 80
+    },
+    "completedAt": "2024-03-20T15:30:00Z",
+    "version": "1.0.0"
+  },
+  "personality": {
+    "bigFive": {
+      "openness": 75,
+      "conscientiousness": 82,
+      "extraversion": 68,
+      "agreeableness": 88,
+      "neuroticism": 45
+    },
+    "strengths": ["善于倾听", "富有同理心", "情绪稳定"],
+    "risks": ["过分理想化", "容易优柔寡断"]
+  },
+  "emotional": {
+    "cognitionPattern": "理性分析型",
+    "expressionStyle": "委婉含蓄型",
+    "needs": [
+      "需要稳定的情感依托",
+      "渴望被理解和认可",
+      "追求精神层面的契合"
+    ]
+  },
+  "relationship": {
+    "attachmentStyle": "安全型",
+    "communicationStyle": "直接型",
+    "expectations": [
+      "建立稳定的情感连接",
+      "保持良好的沟通",
+      "共同成长"
+    ]
+  },
+  "suggestions": {
+    "personalGrowth": [
+      "培养决断力",
+      "提高行动效率",
+      "保持开放心态"
+    ],
+    "relationshipTips": [
+      "主动创造共处时光",
+      "保持良性沟通",
+      "尊重对方空间"
+    ],
+    "preventions": [
+      "避免过分理想化",
+      "克服优柔寡断",
+      "防止情绪压抑"
+    ]
+  }
+} 

@@ -1,0 +1,48 @@
+.container {
+  padding: 24px 0;
+}
+
+.chartSection {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2d3748;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.chartWrapper {
+  height: 400px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.infoSection {
+  margin-top: 32px;
+}
+
+.card {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card :global(.ant-card-head) {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.card :global(.ant-list-item) {
+  border-bottom: none;
+  padding: 8px 0;
+}
+
+/* 响应式布局 */
+@media (max-width: 576px) {
+  .chartWrapper {
+    height: 300px;
+  }
+} 

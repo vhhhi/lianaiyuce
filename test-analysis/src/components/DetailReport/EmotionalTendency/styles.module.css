@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card :global(.ant-card-head) {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0 24px;
+}
+
+.card :global(.ant-card-head-title) {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card :global(.ant-card-body) {
+  padding: 24px;
+}
+
+.patternContent {
+  text-align: center;
+}
+
+.patternTag {
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.description {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+}
+
+.needItem {
+  padding: 8px 0;
+  border-bottom: none !important;
+  justify-content: center;
+}
+
+.needItem :global(.ant-tag) {
+  font-size: 14px;
+  padding: 4px 12px;
+  margin: 4px;
+}
+
+@media (max-width: 768px) {
+  .card :global(.ant-card-body) {
+    padding: 16px;
+  }
+
+  .patternTag {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+} 

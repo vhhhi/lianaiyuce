@@ -1,0 +1,38 @@
+.container {
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 16px;
+}
+
+.dimensionList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dimensionItem {
+  width: 100%;
+}
+
+.dimensionInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.dimensionName {
+  font-size: 14px;
+  color: #666;
+}
+
+.dimensionValue {
+  font-size: 14px;
+  color: #f56a00;
+  font-weight: 500;
+} 
